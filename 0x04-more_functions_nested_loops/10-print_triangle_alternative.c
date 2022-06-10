@@ -13,21 +13,21 @@ void print_triangle(int size)
 	} else	/*Proceed to draw triangle if size is greater than zero*/
 	{
 		int hash;	/*@hash: number of hash characters to print*/
-		int space;	/*@space: number of hash characters to print*/
+		int space;	/*@space: number of space characters to print*/
 		int i;		/*@i: for-loop iterator*/
 		int j;		/*@j: for-loop iterator*/
 
-		for (i = 1; i <= size; i++)	/*Loop for @size number of times*/
+		for (i = 1; i <= size; i++)	/*Loop @size number of times*/
 		{
 			space = size - i;
 			hash = size - space;
 
-			for (j = 1; j <= space; j++)	/*Print spaces in @space numb of times*/
+			for (j = 1; j <= space; j++)	/*Print space character @space numb of times*/
 			{
 				_putchar(' ');
 			}
 
-			for (j = 1; j <= hash; j++)	/*Print hashes in @hash numb of times*/
+			for (j = 1; j <= hash; j++)	/*Print hash character @hash numb of times*/
 			{
 				_putchar('#');
 			}
