@@ -1,0 +1,1 @@
+Project files in favour of the static library creation course and tasks.
