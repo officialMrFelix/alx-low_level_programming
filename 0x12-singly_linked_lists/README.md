@@ -1,0 +1,1 @@
+Projects and mini programs that demonstrate singly linked list data structure using C language.
